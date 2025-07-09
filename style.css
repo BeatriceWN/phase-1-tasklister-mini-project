@@ -35,3 +35,39 @@ button {
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
 }
+
+li.low {
+  color: #2e8b57;
+  background-color: #e6f5ea;
+}
+
+li.medium {
+  color: #ffa500;
+  background-color: #fff5e6;
+}
+
+li.high {
+  color: #dc143c;
+  background-color: #ffe6e9;
+}
+
+
+button {
+  font-size: 10px;
+  padding: 2px 5px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  background-color: #f44336;
+  color: white;
+}
+
+li:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  transition: background-color 0.2s ease-in-out;
+}
+button:hover {
+  background-color: #d32f2f;
+}
+
